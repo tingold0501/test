@@ -1,0 +1,90 @@
+*{
+    font-family: tahoma;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*nav*/
+ul{
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    display: flex;
+    background: lightsalmon;
+    list-style-type: none;
+    text-align: center;
+}
+nav ul > li{
+    list-style-type: none;
+    min-width: 100px;    
+}
+ul li > a:hover{
+    background:lime;
+    color: linen;
+}
+ul li > a{
+    display: block;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+div.listright{
+    display: flex;
+    width: 80%;
+}
+div.listleft{
+    display: flex;
+}
+div.listright li{
+    text-align: center;
+    min-width: 100px;
+}
+div.listleft li{
+    min-width: 100px;
+}
+/*header*/
+header{
+    background: orangered;
+    width: 100%;
+    height: 140px;
+    display: flex;
+}
+header div > img{
+    height: 140px;
+    width: 60%;
+}
+.sub{
+    display: none;
+}
+.sub-big:hover .sub{
+    display: block;
+    position: absolute;
+    color: chartreuse;
+}
+input[type="text"]{
+    border-radius: 20px;
+    width: 50%;
+    height: 35px;
+}
+div.imgbig{
+    width: 40%;
+}
+header div.imgbig{
+    width: 30%;
+}
+div.inputsearch{
+    width: 35%;
+    height: 140px;
+    line-height: 140px;
+}
+textarea{
+    width: 150%;
+    height: 134px;
+}
+
+@media screen and(max-width:800px){
+
+}

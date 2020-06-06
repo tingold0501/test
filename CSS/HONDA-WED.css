@@ -1,0 +1,17 @@
+/*HEADER*/
+header{
+    display: flex;
+}
+ul{
+    display: flex;
+}
+/*NAV*/
+nav ul{
+    text-transform: uppercase;
+    list-style-type: none;
+}
+nav ul > li > a{
+    padding: 10px;
+}
+
+
